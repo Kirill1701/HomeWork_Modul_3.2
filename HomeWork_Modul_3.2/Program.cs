@@ -26,53 +26,19 @@ namespace HomeWork_Modul_3._2
                 switch (cardNominal)
                 {
                     case "2":
-                        cardsValue += 2;
-                        break;
-
                     case "3":
-                        cardsValue += 3;
-                        break;
-
                     case "4":
-                        cardsValue += 4;
-                        break;
-
                     case "5":
-                        cardsValue += 5;
-                        break;
-
                     case "6":
-                        ;
-                        cardsValue += 6;
-                        break;
-
                     case "7":
-                        cardsValue += 7;
-                        break;
-
                     case "8":
-                        cardsValue += 8;
-                        break;
-
                     case "9":
-                        cardsValue += 9;
-                        break;
-
                     case "10":
-                        cardsValue += 10;
+                        cardsValue += int.Parse(cardNominal);
                         break;
-
                     case "J":
-                        cardsValue += 10;
-                        break;
-
                     case "Q":
-                        cardsValue += 10;
-                        break;
-
                     case "K":
-                        cardsValue += 10;
-                        break;
                     case "T":
                         cardsValue += 10;
                         break;
